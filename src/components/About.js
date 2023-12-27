@@ -56,7 +56,7 @@ export const About = () => {
       {/*  */}
       <div className="flex-col flex md:flex-row justify-center items-center mt-20 p-10">
         <div className="text-center relative ">
-          <img  className='h-[500px] md:h-[700px] w-full' src={Left} alt="left" />
+          <img  className='h-[400px] sm:h-[500px] md:h-[700px] w-full' src={Left} alt="left" />
           <div className="absolute z-10 top-[25%] sm:top-[50%] text-sm md:text-xl  p-2">
             <p className="text-white">
               inim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -68,7 +68,7 @@ export const About = () => {
           </div>
         </div>
         <div className=" relative ">
-          <img className='h-[500px] md:h-[700px] w-full'  src={Right} alt="right" />
+          <img className='h-[400px] sm:h-[500px]  md:h-[700px] w-full'  src={Right} alt="right" />
           <div className="absolute top-0 sm:top-[20%] text-white  font-bold p-10">
             <h1 className="text-sm md:text-2xl lg:text-3xl font-bold">
              Drive your design to a <br/>new age technology that<br/> we deliver.

@@ -34,7 +34,7 @@ const Header = () => {
             <Link onClick={function(){setNav(!nav)}} to={'doctor-login'}  smooth duration={500} className='px-4 py-6 hover:scale-105 duration-200 cursor-pointer'>Doctor Login <i className="fa-solid font fa-angle-up"></i></Link>
             <Link onClick={function(){setNav(!nav)}} to={'collection'} smooth duration={500}  className=' px-4 py-6 hover:scale-105 duration-200 cursor-pointer'>Collection</Link>
             <Link onClick={function(){setNav(!nav)}} to={'contact'} smooth duration={500}  className=' px-4 py-6 hover:scale-105 duration-200 cursor-pointer'>Contact</Link>
-            <button className='px-4 py-6 bg-[#3b8e9e] text-white px-4 py-2 rounded border w-[150px]'>Sign in <i className="fa-solid fa-right-to-bracket"></i></button>
+            <button className='px-5 py-4 bg-[#3b8e9e] text-white rounded border w-[150px]'>Sign in <i className="fa-solid fa-right-to-bracket"></i></button>
          </ul>}
     </div>
    </div>
